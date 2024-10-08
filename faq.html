@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>FAQ - BulletStorm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Preguntas Frecuentes (FAQ)</h1>
+        <div class="menu-box"> <!-- Contenedor para el menú -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="detalles.html">Detalles del Juego</a></li>
+                    <li><a href="registro.html">Registro a la Beta</a></li>
+                    <li><a href="faq.html">FAQ</a>
+                        <!-- Submenú para Inicio -->
+                        <ul class="submenu">
+                            <li><a href="#nuevaPregunta">Información General</a></li>
+                        </ul>                
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <ol>
+        <li>
+            <strong>¿Cuándo comienza la beta?</strong>
+            <p>La beta estará disponible a partir del 1 de noviembre de 2024.</p>
+        </li>
+        <li>
+            <strong>¿Cómo me puedo registrar?</strong>
+            <p>Visita la página de <a href="registro.html">Registro a la Beta</a> y completa el formulario.</p>
+        </li>
+        <li>
+            <strong>¿Qué plataformas son compatibles?</strong>
+            <p>La beta estará disponible solo para PS5, Xbox Series X y PC.</p>
+        </li>
+        <li>
+            <strong>¿Requiere conexión a internet constante?</strong>
+            <p>Sí, es necesario tener una conexión estable a internet para jugar la beta.</p>
+        </li>
+        <li>
+            <strong>¿Hay recompensas exclusivas por participar en la beta?</strong>
+            <p>Sí, los jugadores que participen y completen desafíos durante la beta recibirán contenido exclusivo cuando se lance el juego completo.</p>
+        </li>
+    </ol>
+    </section>
+    <section id="nuevaPregunta">
+        <h2>Haga una nueva Pregunta</h2>
+        <p>Escriba su pregunta:</p>
+        
+        <!-- Agregando un formulario alrededor del textarea -->
+        <form action="faq.html" method="post">
+            <textarea id="pregunta" name="pregunta" rows="5" placeholder="Escriba su pregunta aquí..." required></textarea>
+            
+            <div class="button-container">
+                <!-- Cambiado a un botón tipo submit -->
+                <button type="submit" class="cta-button">Enviar</button>
+            </div>
+        </form>
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 BulletStorm - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
